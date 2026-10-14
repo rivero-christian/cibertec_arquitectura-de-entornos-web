@@ -1,0 +1,99 @@
+/*Estilo del header*/
+#encabezado {
+    background-image: url(/images/header-3.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: white;
+}
+
+button {
+    background-color: #d49837;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*Estilos de  <section class="informacion-museo": >*/
+.informacion-museo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px 20px;
+    background-color: #fff;
+}
+
+.bloque {
+    text-align: center;
+    padding: 0 20px;
+    border-right: 1px solid #ddd;
+}
+
+.bloque:last-child {
+    border-right: none;
+}
+
+.bloque h3 {
+    font-size: 20px;
+    margin: 8px 0;
+    color: #333;
+}
+
+.bloque p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #777;
+    margin: 0;
+}
+
+.icono {
+    width: 33px;
+    height: 38px;
+    color: #b8860b;
+    stroke-width: 1.8;
+}
+
+/*Estilos de class="exposicion-destacada"*/
+.exposicion-destacada {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.exposicion-destacada > div {
+    flex: 1;
+}
+
+.exposicion-destacada img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*Estilos de class="nuestras colecciones"*/
+.img-colecciones {
+    width: 300px;
+    height: 200px;
+}
+
+/*Estilos de footer */
+footer {
+    background-color: black;
+}
+
+a, footer p, footer div nav h3 {
+    color: white;
+    text-decoration: none;
+}
+
+#logo-museo {
+    width: 10%;
+    height: 10%;
+}
